@@ -1,8 +1,11 @@
 #ofert{
-
+background-image: url("../images/kartka.png");
 }
 
+.bg {
+    background: rgba(248,249,250,0.8) !important;
 
+}
 #ofert .card1{
     padding-top:50px;
     margin:10% 0;
@@ -12,7 +15,34 @@
     margin:5% 0%;
     text-align: left;
 }
-
+#ofert h3 {
+    text-align: center;
+    margin-bottom: 3%;
+    font-weight: 600;
+    font-size: 40px;
+    position: relative;
+}
+#ofert h3:before {
+    position: absolute;
+    content: "";
+    width: 900px;
+    height: 2px;
+    background-color: #343a40;
+    bottom: -20%;
+    left: 13%;
+    margin-left: -30px;
+}
+#ofert h3:after {
+    position: absolute;
+    background-color: #343a40;
+    content: "";
+    width: 10px;
+    height: 10px;
+    bottom: -27%;
+    left: 50%;
+    margin-left: -5px;
+    border-radius: 50%;
+}
 .bold-big{
     font-weight: bold;
 }
