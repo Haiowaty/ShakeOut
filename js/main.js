@@ -14,24 +14,24 @@ $(window).scroll(function() {
 });
 $(function() {
     $('.nav-item').mouseover(function() {
-        $(this).addClass('border border-darkness rounded transition');
-        $('#highlight').removeClass('border border-darkness rounded transition');
+        $(this).addClass('border border-darkness rounded');
+        $('#highlight').removeClass('border border-darkness rounded');
 
         if($(this).is('#highlight'))
         {
-            $('#highlight').addClass('border border-darkness rounded transition');
+            $('#highlight').addClass('border border-darkness rounded');
         }
         else{
             $('.nav-item').mouseout(function() {
-                $('#highlight').addClass('border border-darkness rounded transition');
+                $('#highlight').addClass('border border-darkness rounded');
             });
         }
     });
     });
 $(function() {
     $('.nav-item').mouseout(function() {
-        $('#highlight').addClass('border border-darkness rounded transition');
-        $(this).removeClass('border border-darkness rounded transition');
+        $('#highlight').addClass('border border-darkness rounded');
+        $(this).removeClass('border border-darkness rounded');
     });
 });
 

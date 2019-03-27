@@ -19,6 +19,9 @@
 .border-darkness{
     border-color: #37384A!important;
 }
+.border-transcendent{
+    border: 1px solid transparent;
+}
 
 
 .container-margin-low{
