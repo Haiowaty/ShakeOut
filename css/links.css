@@ -1,0 +1,67 @@
+#linki{
+    margin: 5% 0;
+}
+
+#linki h1 {
+    margin:5% 0;
+    font-size: 2em;
+    text-align: center;
+}
+#linki h2 {
+    margin:5% 0;
+    font-size: 1.5em;
+    text-align: center;
+    position: relative;
+
+}
+#linki .card{
+    transition: 0.5s;
+    background-color: rgba(174, 178, 191, 0.73);
+    filter: brightness(0.7);
+}
+
+#linki .card:hover {
+    content: target-text(Serwis poświęcony aktualnościami ze świata biznesu);
+    font-weight: bolder; !important;
+    z-index: 2;
+    filter: brightness(1);
+    transition: 0.5s;
+    border-width: 0.5px;
+    border: solid;
+    border-color: rgba(0, 92, 191, 0.73);
+
+}
+
+.btn{
+    border:none;
+    background-color: #4b83ad;
+    color:#fff;
+    border-radius: 30px !important;
+    font-weight: 700 !important;
+    position: relative;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: all 0.5s ease 0s;
+    z-index:1;
+}
+.btn:hover{
+    color: #34464f;
+    border-radius: 30px !important;
+}
+.btn:before{
+    content: "";
+    position: absolute;
+    width: 101%;
+    height: 100%;
+    top: 0;
+    left: -1px;
+    background: #e2e3f1;
+    border-radius: 30px !important;
+    transform: scaleX(0);
+    transition:all 0.5s ease-out 0s;
+    transform-origin: 50% 50% 0;
+    z-index: -1;
+}
+.btn:hover:before{
+    transform: scaleX(1);
+}

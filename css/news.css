@@ -1,0 +1,87 @@
+.jumbotron{
+    padding: 0 2rem;
+}
+.card-jumbotron {
+    max-width: 100% !important;
+}
+
+.check {
+    position: relative;
+}
+.check::before{
+    content: "";
+    position: absolute;
+    width: 100.4%;
+    height: 100.4%;
+    background: linear-gradient(to right, rgba(30,87,143,0) 0%, rgba(181, 188, 176, 0.7) 10%, rgb(222, 227, 208) 22%, rgb(213, 208, 175) 49%,rgba(236, 231,202,1) 100%);
+    z-index: 1;
+}
+
+
+.btn{
+    margin-bottom: 1%;
+    margin-right: 1%;
+    border:none;
+    background-color: unset;
+    color: #37384A;
+    border-radius: 30px !important;
+    font-weight: 700 !important;
+    position: relative;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: all 0.5s ease 0s;
+    z-index:1;
+}
+.btn:hover{
+    color: #34464f;
+    border-radius: 30px !important;
+}
+.btn:before{
+    content: "";
+    position: absolute;
+    width: 101%;
+    height: 100%;
+    top: 0;
+    left: -1px;
+    background: #e2e3f1;
+    border-radius: 30px !important;
+    transform: scaleX(0);
+    transition:all 0.5s ease-out 0s;
+    transform-origin: 50% 50% 0;
+    z-index: -1;
+}
+.btn:hover:before{
+    transform: scaleX(1);
+}
+
+.article-photo{
+    width: auto;
+    max-width:100%;
+    max-height: 100%;
+}
+.karta{
+    width: 100%;
+}
+@media only screen and (max-width:500px) {
+    .karta h1{
+        font-size: 2.5rem ;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .karta {
+        margin:1vmax 0 !important;
+        padding:0!important;
+    }
+}
+.title{
+    z-index: 2;
+    left:20%;
+}
+@media only screen and (max-width:500px) {
+    .title {
+        padding-top:1rem!important;
+    }
+}
+
+
