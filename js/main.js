@@ -1,4 +1,4 @@
-var trigger;
+let trigger;
 
 $(window).scroll(function() {
 
