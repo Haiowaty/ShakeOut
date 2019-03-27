@@ -19,7 +19,39 @@
     text-align: center;
 
 }
-
+.btn{
+    border:none;
+    background-color: #4b83ad;
+    color:#fff;
+    border-radius: 30px !important;
+    font-weight: 700 !important;
+    position: relative;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: all 0.5s ease 0s;
+    z-index:1;
+}
+.btn:hover{
+    color: #34464f;
+    border-radius: 30px !important;
+}
+.btn:before{
+    content: "";
+    position: absolute;
+    width: 101%;
+    height: 100%;
+    top: 0;
+    left: -1px;
+    background: #e2e3f1;
+    border-radius: 30px !important;
+    transform: scaleX(0);
+    transition:all 0.5s ease-out 0s;
+    transform-origin: 50% 50% 0;
+    z-index: -1;
+}
+.btn:hover:before{
+    transform: scaleX(1);
+}
 
 
 
