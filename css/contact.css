@@ -19,6 +19,21 @@
     text-align: center;
 
 }
+#kontakt .btn {
+    border-width: 1px;
+    border: solid;
+    background-color: #c9cfff;
+    color: #473861;
+    transition: 1.2s;
+}
+#kontakt .btn:hover {
+    font-weight: bolder;
+    transform: rotate(3deg);
+    border:solid;
+    background-color: #6d7197;
+    color: #ffae00;
+    transition:0.8s;
+}
 
 
 
