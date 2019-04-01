@@ -1,5 +1,19 @@
+.news {
+    background-image: url("../images/kartka1.png");
+    background-repeat: no-repeat;
+}
+.tlo{
+    background-image: linear-gradient(120deg, #ffecd2 0%, #fceade 100%);
+}
+.photo{
+    height: auto;
+    width: auto;
+    max-height: 1000px;
+
+}
 .jumbotron{
-    padding: 0 2rem;
+    padding: 0 0rem;
+    width: 70%;
 }
 .card-jumbotron {
     max-width: 100% !important;
@@ -11,12 +25,30 @@
 .check::before{
     content: "";
     position: absolute;
-    width: 100.4%;
-    height: 100.4%;
+    width: 100%;
+    height: 100%;
     background: linear-gradient(to right, rgba(30,87,143,0) 0%, rgba(181, 188, 176, 0.7) 10%, rgb(222, 227, 208) 22%, rgb(213, 208, 175) 49%,rgba(236, 231,202,1) 100%);
     z-index: 1;
 }
-
+.linia {
+    height: 10px;
+    width: 10%;
+    border-bottom: 2px dotted black;
+    position: relative;
+    margin-bottom: 2% !important;
+    margin-left: 3%;
+}
+.linia:after {
+    position: absolute;
+    background-color: #343a40;
+    content: "";
+    width: 10px;
+    height: 10px;
+    bottom: -66%;
+    left: 50%;
+    margin-left: -5px;
+    border-radius: 50%;
+}
 
 .btn{
     margin-bottom: 1%;
@@ -56,32 +88,47 @@
 
 .article-photo{
     width: auto;
+    height: 300px;
     max-width:100%;
     max-height: 100%;
 }
-.karta{
-    width: 100%;
+@media only screen and (max-width:800px) {
+    .title h1{
+        font-size: 2rem ;
+    }
+}
+@media only screen and (max-width:650px) {
+    .title h1{
+        font-size: 1.5rem ;
+    }
+    .title h2{
+        font-size: 0.75rem ;
+    }
 }
 @media only screen and (max-width:500px) {
-    .karta h1{
-        font-size: 2.5rem ;
+    .title{
+        left:10% !important;
+    }
+    .title h1{
+        font-size: 1.15rem ;
+    }
+    .title h2{
+        font-size: 0.5rem ;
     }
 }
-
-@media only screen and (max-width:600px) {
-    .karta {
-        margin:1vmax 0 !important;
-        padding:0!important;
-    }
+.intro h1{
+font-size:3rem !important;
 }
 .title{
+    font-size: 1rem;
     z-index: 2;
     left:20%;
 }
-@media only screen and (max-width:500px) {
-    .title {
-        padding-top:1rem!important;
-    }
+.title h2 {
+    font-size: 1rem;
 }
 
+.lead a{
+    padding-left: 0;
+}
 
