@@ -74,38 +74,3 @@ padding-top: 2%;
     margin-left: -5px;
     border-radius: 50%;
 }
-#space {
-    font-size: 24px;
-    position: relative;
-    font-weight: bold;
-}
-#space:before {
-    position: absolute;
-    background-image: url("../images/i.png");
-    background-size: cover;
-    width: 40px;
-    height: 40px;
-    content: "";
-    left: 46%;
-    bottom: 110%;
-
-}
-@media only screen and (min-width: 338px){
-    #space {
-        position: relative;
-        font-size: 30px;
-        font-weight: bold;
-
-    }
-    #space:before {
-        position: absolute;
-        background-image: url("../images/i.png");
-        background-size: cover;
-        width: 60px;
-        height: 60px;
-        content: "";
-        left: 46%;
-        bottom: 110%;
-
-    }
-}

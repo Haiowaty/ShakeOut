@@ -29,6 +29,52 @@
     width: 100%;
 }
 
+.start{
+    background-image: url("../images/kalkulator-z-kartka-w-tle.jpg");
+    height: 900px;
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.text-start{
+    vertical-align: center;
+    justify-content: center;
+    background-color: rgba(255,255,255, 0.92);
+    border-radius: 25px;
+}
+.text-start h1 {
+    font-size: 2.2rem!important;
+}
+.text-start h2{
+    font-size: 1.4rem!important;
+}
+@media only screen and (max-width: 1024px){
+    .text-start h1 {
+        font-size: 2rem!important;
+    }
+    .text-start h2{
+        font-size: 1.2rem!important;
+    }
+}
+@media only screen and (max-width: 768px){
+    .text-start h1 {
+        font-size: 1.8rem!important;
+    }
+    .text-start h2{
+        font-size: 1rem!important;
+    }
+}
+@media only screen and (max-width: 576px){
+    .text-start h1 {
+
+        font-size: 1.6rem!important;
+    }
+    .text-start h2{
+
+        font-size: 1rem!important;
+    }
+    .text-start
+}
 
 .logo-start{
     right:5px;
@@ -158,7 +204,6 @@ sekcja startowa kartki
     position: relative;
     text-align: center;
     margin-bottom: 30px;
-    background-image: url("../images/");
     background-position: center;
 }
 .service-icon {
@@ -191,9 +236,9 @@ sekcja startowa kartki
     font-weight: 500;
 }
 .single-service:hover {
-    -webkit-box-shadow: -1px 0px 5px 6px rgba(153,153,153,1);
-    -moz-box-shadow: -1px 0px 5px 6px rgba(153,153,153,1);
-    box-shadow: -1px 0px 5px 6px rgba(153,153,153,1);
+    -webkit-box-shadow: -1px 0 5px 6px rgba(153,153,153,1);
+    -moz-box-shadow: -1px 0 5px 6px rgba(153,153,153,1);
+    box-shadow: -1px 0 5px 6px rgba(153,153,153,1);
 }
 
 .iconic {
@@ -247,9 +292,52 @@ przerwa
     position: relative;
     width: 100%;
     height: 200px;
-    padding-top: 80px;
+    padding-top: 100px;
 }
+@media only screen and (max-width: 338px){
+    .break{
+        padding-top:50px;
+    }
+}
+@media only screen and (min-width: 338px){
+    #space {
+        position: relative;
+        font-size: 25px;
+        font-weight: bold;
+    }
+    #space:before {
+        position: absolute;
+        background-image: url("../images/i.png");
+        background-size: cover;
+        width: 60px;
+        height: 60px;
+        content: "";
+        left: 45%;
+        bottom: 110%;
 
+    }
+}
+@media only screen and (min-width: 667px){
+    #space{
+        font-size:25px;
+    }
+    #space:before {
+        left: 46%;
+        bottom: 110%;
+    }
+}
+@media only screen and (min-width: 1000px){
+    #space:before {
+        left: 47%;
+        bottom: 110%;
+    }
+}
+@media only screen and (min-width: 1300px){
+    #space:before {
+        left: 48%;
+        bottom: 110%;
+    }
+}
 #googlemap{
     margin-bottom: -6px;
 }
@@ -263,9 +351,8 @@ footer
 }
 .page-footer{
     background-color: #ece7ca;
-    color: #ece7ca!important;
 }
-    li{
+    .page-footer li{
         margin-top:6px;
     }
 /*
@@ -273,7 +360,7 @@ social media buttons
 */
 .card_Facebook, .card_LinkedIn,.card_Google {
     color: rgb(97, 103, 115);
-    background-color: #ece7ca;
+    background-color: #fffadb;
     transition: transform .3s; /* Animation */
     width: 50px !important;
 }

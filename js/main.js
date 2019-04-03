@@ -16,7 +16,6 @@ $(function() {
     $('.nav-item').mouseover(function() {
         $(this).addClass('border border-darkness rounded');
         $('#highlight').removeClass('border border-darkness rounded');
-
         if($(this).is('#highlight'))
         {
             $('#highlight').addClass('border border-darkness rounded');
@@ -32,6 +31,15 @@ $(function() {
     $('.nav-item').mouseout(function() {
         $('#highlight').addClass('border border-darkness rounded');
         $(this).removeClass('border border-darkness rounded');
+        if($(this).is('#highlight'))
+        {
+            $('#highlight').addClass('border border-darkness rounded');
+        }
+        else{
+            $('.nav-item').mouseout(function() {
+                $('#highlight').addClass('border border-darkness rounded');
+            });
+        }
     });
 });
 

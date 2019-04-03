@@ -27,7 +27,6 @@
     transition: 1.2s;
 }
 #kontakt .btn:hover {
-    font-weight: bolder;
     transform: rotate(3deg);
     border:solid;
     background-color: #6d7197;
