@@ -8,14 +8,15 @@
     text-align: center;
 }
 #linki h2 {
-    margin:5% 0;
+    margin:1% 0;
     font-size: 1.5em;
     text-align: center;
     position: relative;
 
 }
 #linki h4 {
- font-weight: normal;
+    font-weight: normal;
+    margin-bottom: 9%;
 }
 
 
@@ -54,6 +55,7 @@
 }
 
 #linki .btn{
+    margin-bottom: 1.5%;
     border:none;
     background-color: #4b83ad;
     color:#fff;
