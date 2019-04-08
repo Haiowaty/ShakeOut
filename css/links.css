@@ -12,7 +12,9 @@
     font-size: 1.5em;
     text-align: center;
     position: relative;
-
+}
+#linki h3 {
+    text-align: center;
 }
 #linki h4 {
     font-weight: normal;
@@ -55,6 +57,8 @@
 }
 
 #linki .btn{
+    display: flex;
+    justify-content: center;
     margin-bottom: 1.5%;
     border:none;
     background-color: #4b83ad;
@@ -64,27 +68,12 @@
     position: relative;
     letter-spacing: 1px;
     text-transform: uppercase;
-    transition: all 0.5s ease 0s;
+    transition: all 0.9s ease 0s;
     z-index:1;
 }
 #linki .btn:hover{
-    color: #34464f;
-    border-radius: 30px !important;
-}
-#linki .btn:before{
-    content: "";
-    position: absolute;
-    width: 101%;
-    height: 100%;
-    top: 0;
-    left: -1px;
+    color: #23343d;
     background: #e2e3f1;
-    border-radius: 30px !important;
-    transform: scaleX(0);
     transition:all 0.5s ease-out 0s;
-    transform-origin: 50% 50% 0;
-    z-index: -1;
-}
-.btn:hover:before{
-    transform: scaleX(1);
+
 }
