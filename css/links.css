@@ -1,9 +1,9 @@
 #linki{
-    margin: 5% 0;
+    margin: 0% 0;
 }
 
 #linki h1 {
-    margin:5% 0;
+    margin:4% 0;
     font-size: 2em;
     text-align: center;
 }
@@ -23,7 +23,7 @@
 
 
  .break1{
-     background-image: linear-gradient(to bottom right, rgba(235, 235, 231, 0.64), rgba(169, 182, 255, 0.62)) ,url("../images/logobg.png");
+     background-image: linear-gradient(to bottom right, rgba(235, 235, 231, 0.64), rgba(169, 182, 255, 0.62)) ,url("../images/logo-bg.png");
      color: rgba(0, 0, 0, 0.88);
      background-position: center;
      background-attachment: fixed;

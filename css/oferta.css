@@ -1,5 +1,6 @@
 #ofert{
 background-image: url("../images/kartka.png");
+    background-size:cover;
 }
 .pp {
     background: linear-gradient(to bottom, white, rgba(239, 240, 241, 0.83));

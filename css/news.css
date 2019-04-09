@@ -1,5 +1,5 @@
 .news {
-    background-image: url("../images/kartka1.png");
+    background-image: url("../images/");
     background-repeat: no-repeat;
 }
 .tlo{
@@ -13,24 +13,10 @@
 }
 .jumbotron{
     padding: 0;
-    width: 100%;
+    width: 80%;
 }
 /*
-@media only screen and (max-width:1000px) {
-    .jumbotron {
-        width:90% !important;
-    }
-}
-@media only screen and (max-width:800px) {
-    .jumbotron {
-        width:87% !important;
-    }
-}
-@media only screen and (max-width:600px) {
-    .jumbotron {
-        width:100% !important;
-    }
-}
+
 */
 .card-jumbotron {
     max-width: 100% !important;
@@ -44,7 +30,7 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    background: linear-gradient(to right, rgba(30,87,143,0) 0%, rgba(181, 188, 176, 0.7) 10%, rgb(222, 227, 208) 22%, rgb(213, 208, 175) 49%,rgba(236, 231,202,1) 100%);
+    background: linear-gradient(to right, rgba(30,87,143,0.1)0%, rgb(227, 200, 187) 22%, rgb(249, 175, 98) 49%, rgba(247, 132, 47, 0.5) 100%);
     z-index: 1;
 }
 

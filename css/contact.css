@@ -22,16 +22,16 @@
 #kontakt .btn {
     border-width: 1px;
     border: solid;
-    background-color: #c9cfff;
-    color: #473861;
-    transition: 1.2s;
+    background-color: rgba(148, 233, 255, 0.52);
+    color: #414f61;
+    transition: 0.35s;
 }
 #kontakt .btn:hover {
     transform: rotate(3deg);
     border:solid;
-    background-color: #6d7197;
+    background-color: rgb(59, 177, 203);
     color: #ffae00;
-    transition:0.8s;
+    transition:0.40s;
 }
 
 
