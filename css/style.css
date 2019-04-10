@@ -38,23 +38,24 @@ body{
 .start{
     height: 900px;
     background-repeat: no-repeat;
-    background-image: url("../images/board.jpg");
+    background-image: url("../images/tablica.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    color: white;
+}
+
 }
 .text-start{
 
     vertical-align: center;
     justify-content: center;
-    border-radius: 25px;
-    color: white;
 }
 .text-start h1 {
-    font-size: 2.2rem!important;
+    font-size: 2.8rem!important;
 }
 .text-start h2{
-    font-size: 1.4rem!important;
+    font-size: 1.8rem!important;
 }
 @media only screen and (max-width: 1024px){
     .text-start h1 {
