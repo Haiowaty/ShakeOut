@@ -497,10 +497,12 @@ footer
 .logo-footer {
     max-width: 100%;
     max-height: 200px;
+    margin: auto;
 }
 #logo-footer{
-    margin: auto;
-    justify-content: center!important;
+
+    display: flex;
+
 }
 .page-footer{
     background-color: #ece7ca;
@@ -561,8 +563,8 @@ social media buttons
     color: rgb(97, 103, 115);
     background-color: #fffdf1;
     transition: transform .3s; /* Animation */
-    width: 40px !important;
-    height: 40px;
+    width: 50px !important;
+    height: 50px;
 }
 
 .card_Facebook:hover {
