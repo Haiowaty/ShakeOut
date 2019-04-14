@@ -173,7 +173,6 @@ body{
     background-image: url("../images/logo-tekst.png");
     background-size: contain;
     background-repeat: no-repeat;
-
 }
 
  /*
@@ -195,6 +194,9 @@ body{
 }
 .navbar-nav{
     color: #37384A!important;
+}
+.nav-item{
+    color:black !important;
 }
 /*
 sekcja startowa kartki
@@ -286,7 +288,7 @@ sekcja startowa kartki
     border-radius: 50%;
 }
 .single-service {
-    background-color: rgba(255, 216, 33, 0.7);
+    background-color: rgba(234, 230, 114, 1);
     padding: 30px 10px;
     position: relative;
     text-align: center;
@@ -382,6 +384,53 @@ sekcja startowa kartki
     border-bottom-left-radius: 30px;
     border-top-left-radius: 30px;
 }
+.pin{
+    background-color: #b6b6b6;
+    height: 25px;
+    display: block;
+    position: absolute;
+    width: 2px;
+    top: -9px;
+    left: 51%;
+    z-index: 1;
+}
+.pin:after {
+    background-color: #f34213;
+    background-image: radial-gradient(256% 26%, none, hsla(0,0%,100%,0.15), hsla(0,0%,0%,0.15));
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 1px hsla(0,0%,0%,.1),
+    inset 4px 4px 4px hsla(0,0%,100%,.2),
+    inset -4px -4px 4px hsla(0,0%,0%,.2),
+    25px 4px 3px hsla(0,0%,0%,.16);
+    content: '';
+    left: -5px;
+    height: 12px;
+    position: absolute;
+    width: 12px;
+    top: -1px;
+}
+.pin:before {
+    background-color: hsla(0,0%,0%,0.1);
+    box-shadow: 0 0 .1em hsla(0,0%,0%,.1);
+    content: '';
+    height: 24px;
+    width: 2px;
+    left: 0;
+    position: absolute;
+    top: 1px;
+    transform: rotate(60deg);
+    -moz-transform: rotate(60deg);
+    -webkit-transform: rotate(60deg);
+    -ms-transform: rotate(60deg);
+    -o-transform: rotate(60deg);
+    transform-origin: 40% 100%;
+    -moz-transform-origin: 50% 100%;
+    -webkit-transform-origin: 50% 100%;
+    -ms-transform-origin: 50% 100%;
+    -o-transform-origin: 50% 100%;
+}
+
+
 /*
 przerwa
 */
@@ -447,15 +496,64 @@ footer
 */
 .logo-footer {
     max-width: 100%;
-    max-height: 100%;
+    max-height: 200px;
+}
+#logo-footer{
+    margin: auto;
+    justify-content: center!important;
 }
 .page-footer{
-    margin-top:10px;
     background-color: #ece7ca;
 }
+@media only screen and (min-width: 768px){
+    .page-footer{
+    }
+}
+
     .page-footer li{
+        font-size: 0.82rem;
         margin-top:6px;
     }
+    .mini-post{
+        height: 100px;
+        background-color: #21262b;
+        border-radius: 2%;
+        margin: auto;
+        flex-direction: row;
+        max-width: 550px;
+    }
+    .footer-news-photo{
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        margin: auto 10px;
+    }
+@media only screen and (max-width: 350px){
+    .footer-news-photo{
+        display: none;
+    }
+}
+    .footer-news-text{
+        text-align: left;
+        flex-direction: column;
+    }
+    .mini-post h5{
+        width: 100%;
+        font-size: 0.65rem !important;
+        justify-content: center;
+    }
+    .mini-post span{
+        width: 100%;
+        font-size: 0.55rem !important;
+    }
+@media only screen and (min-width: 1017px){
+    .mini-post h5{
+        font-size: 0.8rem !important;
+    }
+    .mini-post span{
+        font-size: 0.7rem !important;
+    }
+}
 /*
 social media buttons
 */
@@ -463,7 +561,8 @@ social media buttons
     color: rgb(97, 103, 115);
     background-color: #fffdf1;
     transition: transform .3s; /* Animation */
-    width: 50px !important;
+    width: 40px !important;
+    height: 40px;
 }
 
 .card_Facebook:hover {
