@@ -96,11 +96,11 @@
 }
 @media only screen and (max-width:500px) {
     .title{
-        padding-top:2.9rem!important;
+        padding-top:1.9rem!important;
         left:15% !important;
     }
     .title h1{
-        font-size: 1.3rem ;
+        font-size: 1.24rem ;
     }
     .title h2{
         font-size: 0.75rem;

@@ -20,7 +20,12 @@
     font-weight: normal;
     margin-bottom: 9%;
 }
-
+.link-title{
+    margin: 0 1em;
+}
+.card-title{
+    font-weight: 700 !important;
+}
 
  .break1{
      background-image: linear-gradient(to bottom right, rgba(235, 235, 231, 0.64), rgba(169, 182, 255, 0.62)) ,url("../images/logo-bg.png");
@@ -31,7 +36,7 @@
      padding: 1% 0px;
  }
 .linkiV2{
-    background-image: url("../images/kartka.png");
+    background: rgba(239, 240, 241, 0.83) !important;
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
