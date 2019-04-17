@@ -20,12 +20,37 @@
     font-weight: normal;
     margin-bottom: 9%;
 }
+
 .link-title{
     margin: 0 1em;
 }
-.card-title{
-    font-weight: 700 !important;
+.link-photo{
+    background-size: cover;
+    background-position: left;
 }
+.card-title{
+    font-size: 1.75rem!important;
+    font-weight: 700 !important;
+    padding: 0 20%!important;
+    width: 90%;
+}
+.card-description{
+    font-size: 1.7rem!important;
+    border-radius: 10px;
+    padding-bottom: 3rem!important;
+}
+@media only screen and (max-width:560px) {
+    .card-title{
+        width:80%;
+        font-size: 1.45rem!important;
+        padding:0 10%!important;
+    }
+    .card-description{
+        font-size: 1.2rem!important;
+    }
+
+}
+
 
  .break1{
      background-image: linear-gradient(to bottom right, rgba(235, 235, 231, 0.64), rgba(169, 182, 255, 0.62)) ,url("../images/logo-bg.png");
@@ -36,7 +61,7 @@
      padding: 1% 0px;
  }
 .linkiV2{
-    background: rgba(239, 240, 241, 0.83) !important;
+    background: rgba(239, 240, 241, 0.9) !important;
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
